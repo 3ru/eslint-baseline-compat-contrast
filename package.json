@@ -1,0 +1,15 @@
+{
+  "name": "eslint-baseline-compat-contrast",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "@typescript-eslint/parser": "8.44.0",
+    "eslint": "9.35.0",
+    "eslint-plugin-baseline-js": "0.3.0",
+    "eslint-plugin-compat": "6.0.2"
+  },
+  "scripts": {
+    "lint:baseline": "eslint -c ./eslint.config.baseline.mjs ./src/sort.ts",
+    "lint:compat": "eslint -c ./eslint.config.compat.mjs ./src/sort.ts"
+  }
+}
